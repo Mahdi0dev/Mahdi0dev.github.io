@@ -49,6 +49,19 @@
             flex-grow: 1;
             text-align: center;
         }
+
+        /* اضافه کردن Media Query برای دستگاه‌های کوچک */
+        @media only screen and (max-width: 768px) {
+            .w3-row-padding {
+                flex-direction: column;
+            }
+            .w3-third {
+                width: 100% !important;
+            }
+            .w3-twothird {
+                width: 100% !important;
+            }
+        }
     </style>
 </head>
 <body class="w3-light-grey">
